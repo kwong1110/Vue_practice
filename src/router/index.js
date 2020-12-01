@@ -21,7 +21,25 @@ const routes = [
     name: "TodoList",
     component: () => 
       import("../views/TodoList.vue")
-  }
+  },
+  {
+    path: "/chartTest",
+    name: "chartTest",
+    component: () =>
+      import("../views/ChartTest.vue"),
+    children: [
+      {
+        path: 'chartjs',
+        component: () =>
+          import("../views/Chartjs.vue")
+      },
+      {
+        path: 'googlechart',
+        component: () =>
+          import("../views/GoogleChart.vue")
+      }
+    ]
+  },
 ];
 
 const router = new VueRouter({

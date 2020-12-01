@@ -5,6 +5,7 @@
       <router-link to="/">Home</router-link>
       <router-link to="/start">Start</router-link>
       <router-link to="/todolist">TodoList</router-link>
+      <router-link to="/chartTest">ChartTest</router-link>
     </div>
     <router-view />
   </div>
