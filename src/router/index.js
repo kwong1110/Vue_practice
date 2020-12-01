@@ -40,6 +40,11 @@ const routes = [
       }
     ]
   },
+  {
+    path: "/vuetstrap",
+    component: () =>
+      import("../views/Vuetstrap.vue")
+  }
 ];
 
 const router = new VueRouter({
