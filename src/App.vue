@@ -7,6 +7,7 @@
       <router-link to="/todolist">TodoList</router-link>
       <router-link to="/chartTest">ChartTest</router-link>
       <router-link to="/vuetstrap">Vuetstrap</router-link>
+      <router-link to="/slot">Slot</router-link>
     </div>
     <router-view />
   </div>

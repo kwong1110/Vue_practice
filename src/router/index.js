@@ -44,6 +44,11 @@ const routes = [
     path: "/vuetstrap",
     component: () =>
       import("../views/Vuetstrap.vue")
+  },
+  {
+    path: "/slot",
+    component: () =>
+      import("../views/Slot.vue")
   }
 ];
 

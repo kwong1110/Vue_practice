@@ -6,6 +6,9 @@ export { default as Navbar } from "./Navbar";
 export { default as Doughnut } from "./Doughnut";
 export { default as LineChart } from "./LineChart";
 
-// default
+// Default
 export { default as TodoItem } from "./TodoItem";
 export { default as Title } from "./Title";
+
+// Slot
+export { default as ChildrenTest } from "./Children"
